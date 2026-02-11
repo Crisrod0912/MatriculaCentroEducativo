@@ -25,49 +25,49 @@ BEGIN
         Nombre             NVARCHAR(30) NOT NULL,
     );
 
-    -- InserciÛn de 50 datos en la tabla Estudiante.
-    INSERT INTO dbo.Estudiante(ID_Estudiante, ID_DatosPersonales, Apellido, Fecha_Nacimiento, Genero, Annio_Ingreso, Nombre) VALUES
-    (1, 1, 'RodrÌguez', '2004-09-12', 'Hombre', 2023, 'Cristopher'),
+    -- Inserci√≥n de 50 datos en la tabla Estudiante.
+    INSERT INTO dbo.Estudiante (ID_Estudiante, ID_DatosPersonales, Apellido, Fecha_Nacimiento, Genero, Annio_Ingreso, Nombre) VALUES
+    (1, 1, 'Rodr√≠guez', '2004-09-12', 'Hombre', 2023, 'Cristopher'),
     (2, 2, 'Segura', '2006-02-13', 'Mujer', 2023, 'Paola'),   
-    (3, 3, 'RodrÌguez', '2000-03-25', 'Masculino', 2019, 'Carlos'),
-    (4, 4, 'LÛpez', '2000-04-10', 'Femenino', 2020, 'Laura'),
-    (5, 5, 'GÛmez', '2000-05-05', 'Masculino', 2018, 'Ana'),
-    (6, 6, 'Fern·ndez', '2000-06-30', 'Femenino', 2022, 'David'),
-    (7, 7, 'PÈrez', '2000-07-20', 'Masculino', 2021, 'Elena'),
-    (8, 8, 'S·nchez', '2000-08-10', 'Femenino', 2020, 'Alejandro'),
-    (9, 9, 'DÌaz', '2000-09-05', 'Masculino', 2019, 'SofÌa'),
-    (10,10, 'MartÌn', '2000-10-25', 'Femenino', 2022, 'Javier'),
-    (11, 11, 'Hern·ndez', '2000-11-15', 'Masculino', 2021, 'Paula'),
-    (12, 12, 'GarcÌa', '2000-12-20', 'Femenino', 2020, 'Miguel'),
-    (13, 13, 'MuÒoz', '2001-01-30', 'Masculino', 2018, 'LucÌa'),
-    (14, 14, '¡lvarez', '2001-02-05', 'Femenino', 2022, 'Diego'),
+    (3, 3, 'Rodr√≠guez', '2000-03-25', 'Masculino', 2019, 'Carlos'),
+    (4, 4, 'L√≥pez', '2000-04-10', 'Femenino', 2020, 'Laura'),
+    (5, 5, 'G√≥mez', '2000-05-05', 'Masculino', 2018, 'Ana'),
+    (6, 6, 'Fern√°ndez', '2000-06-30', 'Femenino', 2022, 'David'),
+    (7, 7, 'P√©rez', '2000-07-20', 'Masculino', 2021, 'Elena'),
+    (8, 8, 'S√°nchez', '2000-08-10', 'Femenino', 2020, 'Alejandro'),
+    (9, 9, 'D√≠az', '2000-09-05', 'Masculino', 2019, 'Sof√≠a'),
+    (10,10, 'Mart√≠n', '2000-10-25', 'Femenino', 2022, 'Javier'),
+    (11, 11, 'Hern√°ndez', '2000-11-15', 'Masculino', 2021, 'Paula'),
+    (12, 12, 'Garc√≠a', '2000-12-20', 'Femenino', 2020, 'Miguel'),
+    (13, 13, 'Mu√±oz', '2001-01-30', 'Masculino', 2018, 'Luc√≠a'),
+    (14, 14, '√Ålvarez', '2001-02-05', 'Femenino', 2022, 'Diego'),
     (15, 15, 'Romero', '2001-03-10', 'Masculino', 2021, 'Carmen'),
-    (16, 16, 'Su·rez', '2001-04-25', 'Femenino', 2020, 'Manuel'),
+    (16, 16, 'Su√°rez', '2001-04-25', 'Femenino', 2020, 'Manuel'),
     (17, 17, 'Torres', '2001-05-20', 'Masculino', 2019, 'Isabel'),
-    (18, 18, 'DomÌnguez', '2001-06-15', 'Femenino', 2022, 'Fernando'),
-    (19, 19, 'V·zquez', '2001-07-30', 'Masculino', 2021, 'Eva'),
+    (18, 18, 'Dom√≠nguez', '2001-06-15', 'Femenino', 2022, 'Fernando'),
+    (19, 19, 'V√°zquez', '2001-07-30', 'Masculino', 2021, 'Eva'),
     (20, 20, 'Ramos', '2001-08-05', 'Femenino', 2020, 'Daniel'),
     (21, 21, 'Cruz', '2001-09-10', 'Masculino', 2018, 'Luisa'),
     (22, 22, 'Iglesias', '2001-10-20', 'Femenino', 2022, 'Roberto'),
     (23, 23, 'Ortega', '2001-11-25', 'Masculino', 2021, 'Raquel'),
     (24, 24, 'Reyes', '2001-12-30', 'Femenino', 2020, 'Jorge'),
-    (25, 25, 'JimÈnez', '2002-01-15', 'Masculino', 2019, 'Patricia'),
+    (25, 25, 'Jim√©nez', '2002-01-15', 'Masculino', 2019, 'Patricia'),
     (26, 26, 'Luna', '2002-02-20', 'Femenino', 2022, 'Pedro'),
     (27, 27, 'Molina', '2002-03-25', 'Masculino', 2021, 'Natalia'),
-    (28, 28, 'GimÈnez', '2002-04-10', 'Femenino', 2020, '”scar'),
+    (28, 28, 'Gim√©nez', '2002-04-10', 'Femenino', 2020, '√ìscar'),
     (29, 29, 'Santos', '2002-05-05', 'Masculino', 2018, 'Angela'),
     (30, 30, 'Castillo', '2002-06-30', 'Femenino', 2022, 'Alberto'),
     (31, 31, 'Ortiz', '2002-07-20', 'Masculino', 2021, 'Teresa'),
-    (32, 32, 'N˙Òez', '2002-08-10', 'Femenino', 2020, 'RubÈn'),
+    (32, 32, 'N√∫√±ez', '2002-08-10', 'Femenino', 2020, 'Rub√©n'),
     (33, 33, 'Serrano', '2002-09-05', 'Masculino', 2019, 'Victoria'),
     (34, 34, 'Vidal', '2002-10-25', 'Femenino', 2022, 'Santiago'),
     (35, 35, 'Carmona', '2002-11-15', 'Masculino', 2021, 'Marina'),
     (36, 36, 'Pastor', '2002-12-20', 'Femenino', 2020, 'Gabriel'),
     (37, 37, 'Calvo', '2003-01-30', 'Masculino', 2018, 'Cristina'),
-    (38, 38, 'Herrera', '2003-02-05', 'Femenino', 2022, 'JoaquÌn'),
+    (38, 38, 'Herrera', '2003-02-05', 'Femenino', 2022, 'Joaqu√≠n'),
     (39, 39, 'Aguilar', '2003-03-10', 'Masculino', 2021, 'Marta'),
-    (40, 40, 'Medina', '2003-04-25', 'Femenino', 2020, 'Adri·n'),
-    (41, 41, 'PeÒa', '2003-05-20', 'Masculino', 2019, 'Carmen'),
+    (40, 40, 'Medina', '2003-04-25', 'Femenino', 2020, 'Adri√°n'),
+    (41, 41, 'Pe√±a', '2003-05-20', 'Masculino', 2019, 'Carmen'),
     (42, 42, 'Cabrera', '2003-06-15', 'Femenino', 2022, 'Francisco'),
     (43, 43, 'Gallardo', '2003-07-30', 'Masculino', 2021, 'Elena'),
     (44, 44, 'Vega', '2003-08-05', 'Femenino', 2020, 'Rafaela'),
@@ -90,40 +90,40 @@ BEGIN
         FOREIGN KEY (ID_Estudiante) REFERENCES dbo.Estudiante(ID_Estudiante)
     );
 
-    -- InserciÛn de 50 datos en la tabla Datos Personales.
-    INSERT INTO dbo.DatosPersonales(ID_DatosPersonales, ID_Estudiante, Direccion, Correo) VALUES
+    -- Inserci√≥n de 50 datos en la tabla Datos Personales.
+    INSERT INTO dbo.DatosPersonales (ID_DatosPersonales, ID_Estudiante, Direccion, Correo) VALUES
     (1, 1, 'Calle 123', 'correo1@example.com'),
     (2, 2, 'Avenida 456', 'correo2@example.com'),
     (3, 3, 'Plaza Principal', 'correo3@example.com'),
     (4, 4, 'Carrera 789', 'correo4@example.com'),
-    (5, 5, 'CallejÛn 20', 'correo5@example.com'),
+    (5, 5, 'Callej√≥n 20', 'correo5@example.com'),
     (6, 6, 'Paseo del Sol', 'correo6@example.com'),
     (7, 7, 'Avenida Central', 'correo7@example.com'),
     (8, 8, 'Calle de la Luna', 'correo8@example.com'),
     (9, 9, 'Calle 33', 'correo9@example.com'),
     (10, 10, 'Avenida 22', 'correo10@example.com'),
     (11, 11, 'Plaza de la Libertad', 'correo11@example.com'),
-    (12, 12, 'CallejÛn 20', 'correo12@example.com'),
+    (12, 12, 'Callej√≥n 20', 'correo12@example.com'),
     (13, 13, 'Paseo del Parque', 'correo13@example.com'),
     (14, 14, 'Avenida de las Flores', 'correo14@example.com'),
     (15, 15, 'Calle del Puente', 'correo15@example.com'),
-    (16, 16, 'CallejÛn de los Gatos', 'correo16@example.com'),
-    (17, 17, 'Avenida del RÌo', 'correo17@example.com'),
-    (18, 18, 'Calle de los P·jaros', 'correo18@example.com'),
+    (16, 16, 'Callej√≥n de los Gatos', 'correo16@example.com'),
+    (17, 17, 'Avenida del R√≠o', 'correo17@example.com'),
+    (18, 18, 'Calle de los P√°jaros', 'correo18@example.com'),
     (19, 19, 'Callejon 20', 'correo19@example.com'),
     (20, 20, 'Avenida 21', 'correo20@example.com'),
     (21, 21, 'Plaza Mayor', 'correo21@example.com'),
     (22, 22, 'Calle del Bosque', 'correo22@example.com'),
     (23, 23, 'Calle del Mar', 'correo23@example.com'),
     (24, 24, 'Avenida de las Palmeras', 'correo24@example.com'),
-    (25, 25, 'Calle de la MontaÒa', 'correo25@example.com'),
+    (25, 25, 'Calle de la Monta√±a', 'correo25@example.com'),
     (26, 26, 'Avenida del Cielo', 'correo26@example.com'),
     (27, 27, 'Calle de las Estrellas', 'correo27@example.com'),
     (28, 28, 'Calle de las Sombras', 'correo28@example.com'),
     (29, 29, 'Callejon de la Noche', 'correo29@example.com'),
-    (30, 30, 'Avenida del Crep˙sculo', 'correo30@example.com'),
+    (30, 30, 'Avenida del Crep√∫sculo', 'correo30@example.com'),
     (31, 31, 'Calle de los Suspiros', 'correo31@example.com'),
-    (32, 32, 'Avenida de los SueÒos', 'correo32@example.com'),
+    (32, 32, 'Avenida de los Sue√±os', 'correo32@example.com'),
     (33, 33, 'Plaza del Recuerdo', 'correo33@example.com'),
     (34, 34, 'Calle de las Ilusiones', 'correo34@example.com'),
     (35, 35, 'Callejon de los Recuerdos', 'correo35@example.com'),
@@ -132,16 +132,16 @@ BEGIN
     (38, 38, 'Calle de los Misterios', 'correo38@example.com'),
     (39, 39, 'Avenida del Silencio', 'correo39@example.com'),
     (40, 40, 'Calle de la Soledad', 'correo40@example.com'),
-    (41, 41, 'CallejÛn de los Deseos', 'correo41@example.com'),
+    (41, 41, 'Callej√≥n de los Deseos', 'correo41@example.com'),
     (42, 42, 'Avenida de los Recuerdos', 'correo42@example.com'),
     (43, 43, 'Plaza de las Maravillas', 'correo43@example.com'),
     (44, 44, 'Calle del Destino', 'correo44@example.com'),
     (45, 45, 'Calle de las Emociones', 'correo45@example.com'),
     (46, 46, 'Avenida de los Sentimientos', 'correo46@example.com'),
     (47, 47, 'Calle de la Felicidad', 'correo47@example.com'),
-    (48, 48, 'CallejÛn de los SueÒos', 'correo48@example.com'),
-    (49, 49, 'Plaza de la ImaginaciÛn', 'correo49@example.com'),
-    (50, 50, 'Avenida de la FantasÌa', 'correo50@example.com');
+    (48, 48, 'Callej√≥n de los Sue√±os', 'correo48@example.com'),
+    (49, 49, 'Plaza de la Imaginaci√≥n', 'correo49@example.com'),
+    (50, 50, 'Avenida de la Fantas√≠a', 'correo50@example.com');
 END
 GO
 
@@ -154,8 +154,8 @@ BEGIN
         Activo           BIT NOT NULL,
     );
 
-    -- InserciÛn de 50 datos en la tabla Congelamiento.
-    INSERT INTO dbo.Congelamiento(ID_Congelamiento, ID_Fecha, ID_Motivo, Activo) VALUES
+    -- Inserci√≥n de 50 datos en la tabla Congelamiento.
+    INSERT INTO dbo.Congelamiento (ID_Congelamiento, ID_Fecha, ID_Motivo, Activo) VALUES
     (1, 101, 201, 1),
     (2, 102, 202, 0),
     (3, 103, 203, 1),
@@ -219,8 +219,8 @@ BEGIN
         FOREIGN KEY (ID_Congelamiento) REFERENCES dbo.Congelamiento(ID_Congelamiento)
     );
 
-    -- InserciÛn de 50 datos en la tabla Fecha.
-    INSERT INTO dbo.Fecha(ID_Fecha, ID_Congelamiento, Fecha_Inicio, Fecha_Fin) VALUES
+    -- Inserci√≥n de 50 datos en la tabla Fecha.
+    INSERT INTO dbo.Fecha (ID_Fecha, ID_Congelamiento, Fecha_Inicio, Fecha_Fin) VALUES
     (101, 1, '2023-01-01', '2023-01-10'),
     (102, 2, '2023-02-01', '2023-02-10'),
     (103, 3, '2023-03-01', '2023-03-10'),
@@ -285,23 +285,23 @@ BEGIN
         FOREIGN KEY (ID_Congelamiento) REFERENCES dbo.Congelamiento(ID_Congelamiento)
     );
 
-    -- InserciÛn de 50 datos en la tabla Motivo.
-    INSERT INTO dbo.Motivo(ID_Motivo, ID_Congelamiento, Salud, Laboral, Otros) VALUES
+    -- Inserci√≥n de 50 datos en la tabla Motivo.
+    INSERT INTO dbo.Motivo (ID_Motivo, ID_Congelamiento, Salud, Laboral, Otros) VALUES
     (201, 1, 0, 1, NULL),
     (202, 2, 0, 0, 'Proyecto Especial'),
     (203, 3, 1, 0, 'Enfermedad'),
-    (204, 4, 0, 1, 'CapacitaciÛn'),
+    (204, 4, 0, 1, 'Capacitaci√≥n'),
     (205, 5, 1, 0, NULL),
     (206, 6, 0, 0, 'Licencia de Maternidad'),
-    (207, 7, 1, 0, 'Baja por LesiÛn'),
+    (207, 7, 1, 0, 'Baja por Lesi√≥n'),
     (208, 8, 0, 0, 'Asuntos Familiares'),
     (209, 9, 1, 0, NULL),
     (210, 10, 0, 1, 'Trabajo Remoto'),
     (211, 11, 0, 1, NULL),
     (212, 12, 0, 1, 'Permiso Sin Goce de Sueldo'),
-    (213, 13, 1, 0, 'Tratamiento MÈdico'),
+    (213, 13, 1, 0, 'Tratamiento M√©dico'),
     (214, 14, 0, 1,NULL),
-    (215, 15, 1, 0, 'RehabilitaciÛn'),
+    (215, 15, 1, 0, 'Rehabilitaci√≥n'),
     (216, 16, 0, 1, NULL),
     (217, 17, 0, 1, 'Incidente Laboral'),
     (218, 18, 0, 1, NULL),
@@ -309,8 +309,8 @@ BEGIN
     (220, 20, 0, 1, 'Proyecto Internacional'),
     (221, 21, 0, 0, 'Cuidado de Familiar Enfermo'),
     (222, 22, 0, 1, NULL),
-    (223, 23, 1, 0, 'Tratamiento PsicolÛgico'),
-    (224, 24, 0, 1, 'SuspensiÛn Laboral'),
+    (223, 23, 1, 0, 'Tratamiento Psicol√≥gico'),
+    (224, 24, 0, 1, 'Suspensi√≥n Laboral'),
     (225, 25, 1, 0, NULL),
     (226, 26, 0, 1, NULL),
     (227, 27, 0, 0, 'Licencia por Duelo'),
@@ -318,25 +318,25 @@ BEGIN
     (229, 29, 1, 0, NULL),
     (230, 30, 0, 1, NULL),
     (231, 31, 1, 0, NULL),
-    (232, 32, 0, 1, 'CapacitaciÛn Especializada'),
-    (233, 33, 1, 0, 'Tratamiento FisioterapÈutico'),
+    (232, 32, 0, 1, 'Capacitaci√≥n Especializada'),
+    (233, 33, 1, 0, 'Tratamiento Fisioterap√©utico'),
     (34, 34, 0, 1, NULL),
     (235, 35, 0, 0, 'Descanso por Burnout'),
-    (236, 36, 0, 1, 'PasantÌa'),
+    (236, 36, 0, 1, 'Pasant√≠a'),
     (237, 37, 0, 0, 'Licencia por Luto'),
     (238, 38, 0, 1, NULL),
     (239, 39, 1, 0, NULL),
     (240, 40, 0, 1, NULL),
     (241, 41, 1, 0, NULL),
     (242, 42, 0, 1, NULL),
-    (243, 43, 0, 0, 'Licencia por Violencia DomÈstica'),
+    (243, 43, 0, 0, 'Licencia por Violencia Dom√©stica'),
     (244, 44, 0, 1, NULL),
     (245, 45, 1, 0, NULL),
     (246, 46, 0, 1, NULL),
     (247, 47, 1, 0, NULL),
     (248, 48, 0, 1, NULL),
-    (249, 49, 1, 0, 'Tratamiento Psiqui·trico'),
-    (250, 50, 0, 1, 'MisiÛn Internacional');
+    (249, 49, 1, 0, 'Tratamiento Psiqui√°trico'),
+    (250, 50, 0, 1, 'Misi√≥n Internacional');
 END
 GO
 
@@ -351,58 +351,58 @@ BEGIN
         Titulo_Academico BIT,
     );
 
-    -- InserciÛn de 50 datos en la tabla Profesor.
+    -- Inserci√≥n de 50 datos en la tabla Profesor.
     INSERT INTO dbo.Profesor (ID_Profesor, Nombre, Apellido, Correo, Especializacion, Titulo_Academico) VALUES
-    (1, 'Juan', 'GarcÌa', 'juan.garcia@example.com', 1, 1),
-    (2, 'MarÌa', 'MartÌnez', 'maria.martinez@example.com', 0, 1),
-    (3, 'Carlos', 'LÛpez', 'carlos.lopez@example.com', 1, 0),
-    (4, 'Ana', 'RodrÌguez', 'ana.rodriguez@example.com', 0, 0),
-    (5, 'Pedro', 'S·nchez', 'pedro.sanchez@example.com', 1, 1),
-    (6, 'Laura', 'GÛmez', 'laura.gomez@example.com', 0, 1),
-    (7, 'Sergio', 'DÌaz', 'sergio.diaz@example.com', 1, 0),
-    (8, 'Elena', 'PÈrez', 'elena.perez@example.com', 0, 0),
+    (1, 'Juan', 'Garc√≠a', 'juan.garcia@example.com', 1, 1),
+    (2, 'Mar√≠a', 'Mart√≠nez', 'maria.martinez@example.com', 0, 1),
+    (3, 'Carlos', 'L√≥pez', 'carlos.lopez@example.com', 1, 0),
+    (4, 'Ana', 'Rodr√≠guez', 'ana.rodriguez@example.com', 0, 0),
+    (5, 'Pedro', 'S√°nchez', 'pedro.sanchez@example.com', 1, 1),
+    (6, 'Laura', 'G√≥mez', 'laura.gomez@example.com', 0, 1),
+    (7, 'Sergio', 'D√≠az', 'sergio.diaz@example.com', 1, 0),
+    (8, 'Elena', 'P√©rez', 'elena.perez@example.com', 0, 0),
     (9, 'Javier', 'Ruiz', 'javier.ruiz@example.com', 1, 1),
-    (10, 'Carmen', 'Fern·ndez', 'carmen.fernandez@example.com', 0, 1),
-    (11, 'David', 'Gonz·lez', 'david.gonzalez@example.com', 1, 0),
+    (10, 'Carmen', 'Fern√°ndez', 'carmen.fernandez@example.com', 0, 1),
+    (11, 'David', 'Gonz√°lez', 'david.gonzalez@example.com', 1, 0),
     (12, 'Patricia', 'Moreno', 'patricia.moreno@example.com', 0, 0),
-    (13, 'Roberto', 'Hern·ndez', 'roberto.hernandez@example.com', 1, 1),
-    (14, 'Luisa', 'JimÈnez', 'luisa.jimenez@example.com', 0, 1),
+    (13, 'Roberto', 'Hern√°ndez', 'roberto.hernandez@example.com', 1, 1),
+    (14, 'Luisa', 'Jim√©nez', 'luisa.jimenez@example.com', 0, 1),
     (15, 'Diego', 'Torres', 'diego.torres@example.com', 1, 0),
     (16, 'Natalia', 'Sanz', 'natalia.sanz@example.com', 0, 0),
-    (17, '”scar', 'Ortega', 'oscar.ortega@example.com', 1, 1),
-    (18, 'Alicia', 'RamÌrez', 'alicia.ramirez@example.com', 0, 1),
-    (19, 'Francisco', 'V·zquez', 'francisco.vazquez@example.com', 1, 0),
+    (17, '√ìscar', 'Ortega', 'oscar.ortega@example.com', 1, 1),
+    (18, 'Alicia', 'Ram√≠rez', 'alicia.ramirez@example.com', 0, 1),
+    (19, 'Francisco', 'V√°zquez', 'francisco.vazquez@example.com', 1, 0),
     (20, 'Beatriz', 'Alonso', 'beatriz.alonso@example.com', 0, 0),
-    (21, 'AndrÈs', 'Molina', 'andres.molina@example.com', 1, 1),
-    (22, 'Sara', 'MartÌn', 'sara.martin@example.com', 0, 1),
-    (23, 'Raul', 'GutiÈrrez', 'raul.gutierrez@example.com', 1, 0),
+    (21, 'Andr√©s', 'Molina', 'andres.molina@example.com', 1, 1),
+    (22, 'Sara', 'Mart√≠n', 'sara.martin@example.com', 0, 1),
+    (23, 'Raul', 'Guti√©rrez', 'raul.gutierrez@example.com', 1, 0),
     (24, 'Marina', 'Iglesias', 'marina.iglesias@example.com', 0, 0),
     (25, 'Gonzalo', 'Navarro', 'gonzalo.navarro@example.com', 1, 1),
     (26, 'Eva', 'Cabrera', 'eva.cabrera@example.com', 0, 1),
     (27, 'Miguel', 'Roca', 'miguel.roca@example.com', 1, 0),
-    (28, 'LucÌa', 'Soler', 'lucia.soler@example.com', 0, 0),
-    (29, 'CÈsar', 'Pascual', 'cesar.pascual@example.com', 1, 1),
+    (28, 'Luc√≠a', 'Soler', 'lucia.soler@example.com', 0, 0),
+    (29, 'C√©sar', 'Pascual', 'cesar.pascual@example.com', 1, 1),
     (30, 'Clara', 'Guerrero', 'clara.guerrero@example.com', 0, 1),
-    (31, 'Ismael', 'MuÒoz', 'ismael.munoz@example.com', 1, 0),
+    (31, 'Ismael', 'Mu√±oz', 'ismael.munoz@example.com', 1, 0),
     (32, 'Adriana', 'Herrero', 'adriana.herrero@example.com', 0, 0),
-    (33, 'Alberto', 'LÛpez', 'alberto.lopez@example.com', 1, 1),
-    (34, 'InÈs', 'Dominguez', 'ines.dominguez@example.com', 0, 1),
-    (35, 'Roberto', 'Fern·ndez', 'roberto.fernandez@example.com', 1, 0),
-    (36, 'Cristina', 'PÈrez', 'cristina.perez@example.com', 0, 0),
-    (37, 'JoaquÌn', 'S·nchez', 'joaquin.sanchez@example.com', 1, 1),
-    (38, 'Elena', 'GarcÌa', 'elena.garcia@example.com', 0, 1),
-    (39, 'Pablo', 'MartÌnez', 'pablo.martinez@example.com', 1, 0),
+    (33, 'Alberto', 'L√≥pez', 'alberto.lopez@example.com', 1, 1),
+    (34, 'In√©s', 'Dominguez', 'ines.dominguez@example.com', 0, 1),
+    (35, 'Roberto', 'Fern√°ndez', 'roberto.fernandez@example.com', 1, 0),
+    (36, 'Cristina', 'P√©rez', 'cristina.perez@example.com', 0, 0),
+    (37, 'Joaqu√≠n', 'S√°nchez', 'joaquin.sanchez@example.com', 1, 1),
+    (38, 'Elena', 'Garc√≠a', 'elena.garcia@example.com', 0, 1),
+    (39, 'Pablo', 'Mart√≠nez', 'pablo.martinez@example.com', 1, 0),
     (40, 'Marta', 'Vidal', 'marta.vidal@example.com', 0, 0),
-    (41, 'Mario', 'JimÈnez', 'mario.jimenez@example.com', 1, 1),
-    (42, 'Raquel', 'S·nchez', 'raquel.sanchez@example.com', 0, 1),
-    (43, 'Alberto', 'GÛmez', 'alberto.gomez@example.com', 1, 0),
-    (44, 'Silvia', 'RodrÌguez', 'silvia.rodriguez@example.com', 0, 0),
-    (45, 'Diego', 'MartÌn', 'diego.martin@example.com', 1, 1),
-    (46, 'Ana', 'GutiÈrrez', 'ana.gutierrez@example.com', 0, 1),
+    (41, 'Mario', 'Jim√©nez', 'mario.jimenez@example.com', 1, 1),
+    (42, 'Raquel', 'S√°nchez', 'raquel.sanchez@example.com', 0, 1),
+    (43, 'Alberto', 'G√≥mez', 'alberto.gomez@example.com', 1, 0),
+    (44, 'Silvia', 'Rodr√≠guez', 'silvia.rodriguez@example.com', 0, 0),
+    (45, 'Diego', 'Mart√≠n', 'diego.martin@example.com', 1, 1),
+    (46, 'Ana', 'Guti√©rrez', 'ana.gutierrez@example.com', 0, 1),
     (47, 'Javier', 'Sanz', 'javier.sanz@example.com', 1, 0),
-    (48, 'Laura', 'Fern·ndez', 'laura.fernandez@example.com', 0, 0),
-    (49, 'Roberto', 'MartÌnez', 'roberto.martinez@example.com', 1, 1),
-    (50, 'Sara', 'JimÈnez', 'sara.jimenez@example.com', 0, 1);
+    (48, 'Laura', 'Fern√°ndez', 'laura.fernandez@example.com', 0, 0),
+    (49, 'Roberto', 'Mart√≠nez', 'roberto.martinez@example.com', 1, 1),
+    (50, 'Sara', 'Jim√©nez', 'sara.jimenez@example.com', 0, 1);
 END
 GO
 
@@ -415,62 +415,62 @@ BEGIN
         FOREIGN KEY (ID_Profesor) REFERENCES dbo.Profesor(ID_Profesor)
     );
 
-    -- InserciÛn de 50 datos en la tabla Materia.
+    -- Inserci√≥n de 50 datos en la tabla Materia.
     INSERT INTO dbo.Materia (ID_Materia, ID_Profesor, Nombre) VALUES
-	(1, 1, 'Matem·ticas'),
+	(1, 1, 'Matem√°ticas'),
 	(2, 2, 'Ciencias Naturales'),
 	(3, 3, 'Historia'),
 	(4, 4, 'Literatura'),
-	(5, 5, 'EducaciÛn FÌsica'),
-	(6, 6, 'InglÈs'),
+	(5, 5, 'Educaci√≥n F√≠sica'),
+	(6, 6, 'Ingl√©s'),
 	(7, 7, 'Arte'),
-	(8, 8, 'ProgramaciÛn'),
-	(9, 9, 'QuÌmica'),
-	(10, 10, 'BiologÌa'),
-	(11, 11, 'GeografÌa'),
-	(12, 12, 'M˙sica'),
-	(13, 13, 'EconomÌa'),
-	(14, 14, 'FilosofÌa'),
-	(15, 15, 'Dibujo TÈcnico'),
-	(16, 16, 'EducaciÛn CÌvica'),
-	(17, 17, 'FÌsica'),
-	(18, 18, 'TecnologÌa'),
-	(19, 19, 'PsicologÌa'),
-	(20, 20, 'SociologÌa'),
+	(8, 8, 'Programaci√≥n'),
+	(9, 9, 'Qu√≠mica'),
+	(10, 10, 'Biolog√≠a'),
+	(11, 11, 'Geograf√≠a'),
+	(12, 12, 'M√∫sica'),
+	(13, 13, 'Econom√≠a'),
+	(14, 14, 'Filosof√≠a'),
+	(15, 15, 'Dibujo T√©cnico'),
+	(16, 16, 'Educaci√≥n C√≠vica'),
+	(17, 17, 'F√≠sica'),
+	(18, 18, 'Tecnolog√≠a'),
+	(19, 19, 'Psicolog√≠a'),
+	(20, 20, 'Sociolog√≠a'),
 	(21, 21, 'Danza'),
-	(22, 22, 'AdministraciÛn'),
+	(22, 22, 'Administraci√≥n'),
 	(23, 23, 'Marketing'),
-	(24, 24, 'EstadÌstica'),
+	(24, 24, 'Estad√≠stica'),
 	(25, 25, 'Derecho'),
 	(26, 26, 'Medicina'),
 	(27, 27, 'Arquitectura'),
-	(28, 28, 'PsiquiatrÌa'),
-	(29, 29, 'AntropologÌa'),
-	(30, 30, 'GastronomÌa'),
+	(28, 28, 'Psiquiatr√≠a'),
+	(29, 29, 'Antropolog√≠a'),
+	(30, 30, 'Gastronom√≠a'),
 	(31, 31, 'Turismo'),
 	(32, 32, 'Veterinaria'),
-	(33, 33, 'AstronomÌa'),
-	(34, 34, 'MeteorologÌa'),
-	(35, 35, 'N·utica'),
+	(33, 33, 'Astronom√≠a'),
+	(34, 34, 'Meteorolog√≠a'),
+	(35, 35, 'N√°utica'),
 	(36, 36, 'Cine'),
 	(37, 37, 'Teatro'),
 	(38, 38, 'Telecomunicaciones'),
-	(39, 39, 'EnergÌas Renovables'),
-	(40, 40, 'DiseÒo Gr·fico'),
-	(41, 41, 'EcologÌa'),
-	(42, 42, 'GestiÛn Ambiental'),
-	(43, 43, 'NutriciÛn'),
+	(39, 39, 'Energ√≠as Renovables'),
+	(40, 40, 'Dise√±o Gr√°fico'),
+	(41, 41, 'Ecolog√≠a'),
+	(42, 42, 'Gesti√≥n Ambiental'),
+	(43, 43, 'Nutrici√≥n'),
 	(44, 44, 'Farmacia'),
-	(45, 45, 'OdontologÌa'),
-	(46, 46, 'EnfermerÌa'),
-	(47, 47, 'OptometrÌa'),
-	(48, 48, 'KinesiologÌa'),
+	(45, 45, 'Odontolog√≠a'),
+	(46, 46, 'Enfermer√≠a'),
+	(47, 47, 'Optometr√≠a'),
+	(48, 48, 'Kinesiolog√≠a'),
 	(49, 49, 'Logopedia'),
 	(50, 50,  'Trabajo Social');
 END
 GO
 
--- Tabla de MatrÌcula.
+-- Tabla de Matr√≠cula.
 BEGIN
     CREATE TABLE dbo.Matricula (
         ID_Matricula  INT PRIMARY KEY NOT NULL,
@@ -480,8 +480,8 @@ BEGIN
         FOREIGN KEY (ID_Estudiante) REFERENCES dbo.Estudiante(ID_Estudiante)
     );
 
-    -- InserciÛn de 50 datos en la tabla MatrÌcula.
-    INSERT INTO dbo.Matricula(ID_Matricula, ID_Materia, ID_Estudiante) VALUES
+    -- Inserci√≥n de 50 datos en la tabla Matr√≠cula.
+    INSERT INTO dbo.Matricula (ID_Matricula, ID_Materia, ID_Estudiante) VALUES
 	(1, 1, 1),
 	(2, 2, 2),
 	(3, 3, 3),
@@ -546,7 +546,7 @@ BEGIN
         FOREIGN KEY (ID_Materia) REFERENCES dbo.Materia(ID_Materia)
     );
 
-    -- InserciÛn de 50 datos en la tabla Horario.
+    -- Inserci√≥n de 50 datos en la tabla Horario.
     INSERT INTO dbo.Horario (ID_Horario, ID_Hora, ID_Materia, Numero_Dia, Periodo_Academico) VALUES
     (1, 1, 1, 1, '2023A'),
     (2, 2, 2, 2, '2023B'),
@@ -597,7 +597,7 @@ BEGIN
     (47, 47, 47, 5, '2023A'),
     (48, 48, 48, 6, '2023B'),
     (49, 49, 49, 7, '2023A'),
-    (50, 50, 50, 1,†'2023B');
+    (50, 50, 50, 1,¬†'2023B');
 END
 GO
 
@@ -611,7 +611,7 @@ BEGIN
         FOREIGN KEY (ID_Horario) REFERENCES dbo.Horario(ID_Horario)
     );
 
-    -- InserciÛn de 50 datos en la tabla Hora.
+    -- Inserci√≥n de 50 datos en la tabla Hora.
     INSERT INTO dbo.Hora (ID_Hora, ID_Horario, Hora_Inicial, Hora_Final) VALUES
 	(1, 1, '08:00', '10:00'),
 	(2, 2, '10:00', '12:00'),
@@ -666,7 +666,7 @@ BEGIN
 END
 GO
 
--- Tabla de AuditorÌa.
+-- Tabla de Auditor√≠a.
 BEGIN
     CREATE TABLE dbo.Auditoria (
         ID_Auditoria   INT              PRIMARY KEY NOT NULL,
@@ -737,7 +737,7 @@ BEGIN
 END
 GO
 
--- Procedimiento almacenado para Obtener AÒo de Ingreso de Estudiante.
+-- Procedimiento almacenado para Obtener A√±o de Ingreso de Estudiante.
 CREATE PROCEDURE dbo.ObtenerAnnioIngresoEstudiante
     @ID_Estudiante INT
 AS
@@ -763,7 +763,7 @@ GO
 -- FUNCIONES
 -- =============================================
 
--- FunciÛn para Contar estudiantes Por Materia.
+-- Funci√≥n para Contar estudiantes Por Materia.
 CREATE FUNCTION dbo.ContarEstudiantesPorMateria (@ID_Materia INT)
 RETURNS INT
 AS
@@ -778,7 +778,7 @@ BEGIN
 END
 GO
 
--- FunciÛn para Obtener Congelamientos Activos.
+-- Funci√≥n para Obtener Congelamientos Activos.
 CREATE FUNCTION dbo.ObtenerCongelamientosActivos()
 RETURNS TABLE
 AS
@@ -789,7 +789,7 @@ RETURN (
 );
 GO
 
--- FunciÛn para Obtener Congelamientos Inactivos.
+-- Funci√≥n para Obtener Congelamientos Inactivos.
 CREATE FUNCTION dbo.ObtenerCongelamientosInactivos()
 RETURNS TABLE
 AS
@@ -800,7 +800,7 @@ RETURN (
 );
 GO
 
--- FunciÛn para Contar Profesores Por EspecializaciÛn.
+-- Funci√≥n para Contar Profesores Por Especializaci√≥n.
 CREATE FUNCTION dbo.ContarProfesoresPorEspecializacion (@Especializacion NVARCHAR(100))
 RETURNS INT
 AS
@@ -894,7 +894,7 @@ GO
 -- DISPARADORES
 -- =============================================
 
--- Disparador para AuditorÌa al Insertar Estudiante.
+-- Disparador para Auditor√≠a al Insertar Estudiante.
 CREATE TRIGGER dbo.trgRegistroNuevoEstudiante
 ON dbo.Estudiante
 AFTER INSERT
@@ -923,7 +923,7 @@ BEGIN
 END
 GO
 
--- Disparador para AuditorÌa al Actualizar Congelamiento.
+-- Disparador para Auditor√≠a al Actualizar Congelamiento.
 CREATE TRIGGER dbo.trgAuditoriaActualizarCongelamiento
 ON dbo.Congelamiento
 AFTER UPDATE
