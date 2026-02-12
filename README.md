@@ -4,45 +4,36 @@ The database's main objective is the storage and management of crucial informati
 
 ## 📚 Managed Information
 
-### 👨‍🎓 Students
-Stores personal, academic, and administrative information such as:
-- 📛 Full name  
-- 🎂 Date of birth  
-- 🆔 Unique ID  
-- 📖 Academic history  
-- 🗂️ Administrative records  
-
-### 📘 Subjects
-Complete catalog of courses offered by the institution, including:
-- 🏷️ Subject name  
-- 📝 Description  
-- 🔢 Unique code  
-- 🎓 Credits  
-- 🔗 Prerequisites  
-
-### 👨‍🏫 Professors
-Faculty personal and professional data:
-- 📛 Full name  
-- 🎯 Specialization  
-- 🆔 Unique ID  
-- 📧 Contact information  
-- 🕒 Availability  
-- 📚 Courses taught  
-
-### 🗓️ Schedules
-Class scheduling details:
-- 📅 Day  
-- ⏰ Time  
-- 🏫 Classroom  
-- ⏳ Duration  
-- 👨‍🏫 Assigned professor  
-- 📘 Subject  
-
-### ⏸️ Enrollment Freezes
-Records of temporary academic suspensions:
-- 📝 Reason  
-- 📆 Start date  
-- 📆 End date  
+- 👨‍🎓 **Students:** Stores personal, academic, and administrative information such as:
+   - 📛 Full name  
+   - 🎂 Date of birth  
+   - 🆔 Unique ID  
+   - 📖 Academic history  
+   - 🗂️ Administrative records
+- 📘 **Subjects:** Complete catalog of courses offered by the institution, including:
+   - 🏷️ Subject name  
+   - 📝 Description  
+   - 🔢 Unique code  
+   - 🎓 Credits  
+   - 🔗 Prerequisites  
+- 👨‍🏫 **Professors:** Faculty personal and professional data:
+   - 📛 Full name  
+   - 🎯 Specialization  
+   - 🆔 Unique ID  
+   - 📧 Contact information  
+   - 🕒 Availability  
+   - 📚 Courses taught
+- 🗓️ **Schedules:** Class scheduling details:
+   - 📅 Day  
+   - ⏰ Time  
+   - 🏫 Classroom  
+   - ⏳ Duration  
+   - 👨‍🏫 Assigned professor  
+   - 📘 Subject
+- ⏸️ **Enrollment Freezes:** Records of temporary academic suspensions:
+   - 📝 Reason  
+   - 📆 Start date  
+   - 📆 End date  
 
 ## 🚀 Features
 
@@ -53,15 +44,13 @@ Records of temporary academic suspensions:
    - 👥 Role-based access control (administrators, professors, students)  
    - ✔️ Data validation rules to ensure integrity  
    - 🖥️ Intuitive and user-friendly database management  
-
 - 📈 **Scalability:**
    - 📊 Adaptable to institutional growth  
    - 🧩 Flexible for future feature expansion  
-
 - 🛡️ **Security:**
    - 🔒 Protection of confidential academic information  
    - 🚫 Prevention of unauthorized access or modification  
-   - 💾 Backup and recovery mechanisms  
+   - 💾 Backup and recovery mechanisms
 
 ## 🛠️ Technologies Used
 
