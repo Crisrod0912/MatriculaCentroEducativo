@@ -78,19 +78,19 @@ Records of temporary academic suspensions:
 
 Follow these steps to configure and execute the project:
 
-## 📥 Step 1: Clone the repository
+📥 **Step 1: Clone the repository**
 
    ```bash
    git clone https://github.com/Crisrod0912/MatriculaCentroEducativo.git
    ```
-   
-## 🗄️ Step 2: Set up the Microsoft SQL Server database
+
+🗄️ **Step 2: Set up the Microsoft SQL Server database**
 
   - Open **SQL Server Management Studio**.
   - Create a new database called `CentroEducativo`.
   - Import the provided SQL file `CentroEducativo.sql` into the `CentroEducativo` database using your server.
 
-## ▶️ Step 3: Execute the SQL script
+▶️ **Step 3: Execute the SQL script**
 
   - Execute the script `CentroEducativo.sql` in your database.
 
