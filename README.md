@@ -66,15 +66,17 @@ Records of temporary academic suspensions:
 # 🛠️ Technologies Used
 
 - 🗄️ **Database:** Microsoft SQL Server  
-- 🌱 **Version Control:** Git  
+- 🌱 **Version Control:** Git
 
-# 📋 Prerequisites
+## ⚙️ Installation
+
+### 📋 Prerequisites
 
 - 🧰 [SQL Server Management Studio 2022](https://learn.microsoft.com/en-us/ssms/install/install)
 
 ---
 
-# ⚙️ Configuration
+### ⚙️ Configuration
 
 Follow these steps to configure and execute the project:
 
