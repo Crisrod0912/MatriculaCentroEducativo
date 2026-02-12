@@ -2,9 +2,9 @@
 
 The database's main objective is the storage and management of crucial information for the academic administration of an educational institution. It centralizes and organizes critical academic data to ensure efficiency, integrity, and security.
 
-# 📚 Managed Information
+## 📚 Managed Information
 
-## 👨‍🎓 Students
+### 👨‍🎓 Students
 Stores personal, academic, and administrative information such as:
 - 📛 Full name  
 - 🎂 Date of birth  
@@ -12,7 +12,7 @@ Stores personal, academic, and administrative information such as:
 - 📖 Academic history  
 - 🗂️ Administrative records  
 
-## 📘 Subjects
+### 📘 Subjects
 Complete catalog of courses offered by the institution, including:
 - 🏷️ Subject name  
 - 📝 Description  
@@ -20,7 +20,7 @@ Complete catalog of courses offered by the institution, including:
 - 🎓 Credits  
 - 🔗 Prerequisites  
 
-## 👨‍🏫 Professors
+### 👨‍🏫 Professors
 Faculty personal and professional data:
 - 📛 Full name  
 - 🎯 Specialization  
@@ -29,7 +29,7 @@ Faculty personal and professional data:
 - 🕒 Availability  
 - 📚 Courses taught  
 
-## 🗓️ Schedules
+### 🗓️ Schedules
 Class scheduling details:
 - 📅 Day  
 - ⏰ Time  
@@ -38,32 +38,32 @@ Class scheduling details:
 - 👨‍🏫 Assigned professor  
 - 📘 Subject  
 
-## ⏸️ Enrollment Freezes
+### ⏸️ Enrollment Freezes
 Records of temporary academic suspensions:
 - 📝 Reason  
 - 📆 Start date  
 - 📆 End date  
 
-# 🚀 Features
+## 🚀 Features
 
-⚙️ **Functionality:**
-- 🔐 Secure and efficient information storage  
-- ⚡ Fast data search and retrieval  
-- 📊 Academic reports and statistics generation  
-- 👥 Role-based access control (administrators, professors, students)  
-- ✔️ Data validation rules to ensure integrity  
-- 🖥️ Intuitive and user-friendly database management  
+- ⚙️ **Functionality:**
+   - 🔐 Secure and efficient information storage  
+   - ⚡ Fast data search and retrieval  
+   - 📊 Academic reports and statistics generation  
+   - 👥 Role-based access control (administrators, professors, students)  
+   - ✔️ Data validation rules to ensure integrity  
+   - 🖥️ Intuitive and user-friendly database management  
 
-📈 **Scalability:**
-- 📊 Adaptable to institutional growth  
-- 🧩 Flexible for future feature expansion  
+- 📈 **Scalability:**
+   - 📊 Adaptable to institutional growth  
+   - 🧩 Flexible for future feature expansion  
 
-🛡️ **Security:**
-- 🔒 Protection of confidential academic information  
-- 🚫 Prevention of unauthorized access or modification  
-- 💾 Backup and recovery mechanisms  
+- 🛡️ **Security:**
+   - 🔒 Protection of confidential academic information  
+   - 🚫 Prevention of unauthorized access or modification  
+   - 💾 Backup and recovery mechanisms  
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - 🗄️ **Database:** Microsoft SQL Server  
 - 🌱 **Version Control:** Git
