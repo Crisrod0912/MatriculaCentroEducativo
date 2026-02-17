@@ -63,8 +63,6 @@ The database's main objective is the storage and management of crucial informati
 
 - 🧰 [SQL Server Management Studio 2022](https://learn.microsoft.com/en-us/ssms/install/install)
 
----
-
 ### ⚙️ Configuration
 
 Follow these steps to configure and execute the project:
